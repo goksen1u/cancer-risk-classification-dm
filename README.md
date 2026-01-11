@@ -4,7 +4,7 @@
 **Notebook :** `cancer_risk_classification_notebook.ipynb`  
 **Dataset :** `cancer-risk-factors.csv`
 
----
+
 
 ## 1) Présentation du projet
 Dans le cadre de ce DM, j’ai travaillé sur un cas d’usage inspiré d’un contexte réel de **cabinet médical**.  
@@ -15,7 +15,7 @@ Le modèle doit classer les patientes selon trois niveaux de risque :
 - **Medium**
 - **High**
 
----
+
 
 ## 2) Priorité : sécurité avant accuracy
 Dans le médical, l’erreur la plus critique est de **ne pas détecter une patiente “High Risk”** (faux négatif).  
@@ -23,7 +23,7 @@ C’est pourquoi l’accuracy globale n’est pas l’indicateur principal ici.
 
  **Objectif principal du projet : maximiser le Recall sur la classe “High” (viser 100%)**, quitte à générer davantage de faux positifs (sur-dépistage).
 
----
+
 
 ## 3) Démarche (cycle de projet type CRISP-DM)
 ### 3.1 Préparation des données
@@ -55,7 +55,6 @@ J’ai intégré **SHAP** pour :
 - analyser l’importance globale des variables,
 - expliquer **au cas par cas** pourquoi une patiente est classée “High”.
 
----
 
 ## 4) Résultats (synthèse)
 -  **Recall (High Risk) : 100%** (aucune patiente à haut risque n’est oubliée)
@@ -64,7 +63,6 @@ J’ai intégré **SHAP** pour :
 
 > Remarque : les performances peuvent légèrement varier selon la séparation train/test et les paramètres, mais l’objectif prioritaire reste le Recall High.
 
----
 
 ## 5) Fichiers générés par le notebook
 Le notebook sauvegarde des figures au format `.png` et crée un fichier `figures.zip` contenant toutes les images.
@@ -83,7 +81,7 @@ Exemples de figures générées (noms conservés tels quels) :
 - `model_comparison.png`
 - `figures.zip`
 
----
+
 
 ## 6) Exécution du projet
 ### Prérequis
