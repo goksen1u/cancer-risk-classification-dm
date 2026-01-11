@@ -79,8 +79,8 @@ Exemples de figures générées (noms conservés tels quels) :
 - `shap_force_high_risk.png`
 - `shap_waterfall_high_risk.png`
 - `model_comparison.png`
-- `figures.zip`
 
+Télécharger "Figure.zip"
 
 
 ## 6) Exécution du projet
