@@ -1,4 +1,4 @@
-# Projet Deep Learning — Classification du risque de cancer du sein (Low / Medium / High)
+# Projet Deep Learning : Classification du risque de cancer du sein (Low / Medium / High)
 
 **Étudiante :** GOKSEN Betul  
 **Notebook :** `cancer_risk_classification_notebook.ipynb`  
