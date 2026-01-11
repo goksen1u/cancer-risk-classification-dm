@@ -21,7 +21,7 @@ Le modèle doit classer les patientes selon trois niveaux de risque :
 Dans le médical, l’erreur la plus critique est de **ne pas détecter une patiente “High Risk”** (faux négatif).  
 C’est pourquoi l’accuracy globale n’est pas l’indicateur principal ici.
 
-🎯 **Objectif principal du projet : maximiser le Recall sur la classe “High” (viser 100%)**, quitte à générer davantage de faux positifs (sur-dépistage).
+ **Objectif principal du projet : maximiser le Recall sur la classe “High” (viser 100%)**, quitte à générer davantage de faux positifs (sur-dépistage).
 
 ---
 
@@ -58,9 +58,9 @@ J’ai intégré **SHAP** pour :
 ---
 
 ## 4) Résultats (synthèse)
-- ✅ **Recall (High Risk) : 100%** (aucune patiente à haut risque n’est oubliée)
-- ✅ **F1-score global : ~0.95** (selon configuration/seed)
-- ✅ **Interprétabilité** : décisions justifiées via SHAP (global + individuel)
+-  **Recall (High Risk) : 100%** (aucune patiente à haut risque n’est oubliée)
+-  **F1-score global : ~0.95** (selon configuration/seed)
+-  **Interprétabilité** : décisions justifiées via SHAP (global + individuel)
 
 > Remarque : les performances peuvent légèrement varier selon la séparation train/test et les paramètres, mais l’objectif prioritaire reste le Recall High.
 
